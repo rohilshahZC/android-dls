@@ -14,7 +14,7 @@
             android:layout_height="24dp"
             android:layout_marginStart="16dp"
             app:layout_constraintBottom_toBottomOf="@+id/text_pickup_location"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/text_pickup_location"
             app:srcCompat="@drawable/ic_pickup_circle" />
 
@@ -32,8 +32,8 @@
             android:paddingEnd="16dp"
             android:paddingBottom="16dp"
             android:textColorHint="@color/phantom_grey_04"
-            app:layout_constraintLeft_toRightOf="@+id/image_pickup"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_pickup"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Bengaluru · Diamond District, Domlur Bengaluru · Diamond District, Domlu" />
 
@@ -50,8 +50,8 @@
             android:layout_height="1dp"
             android:layout_marginEnd="16dp"
             android:background="@color/phantom_grey_02"
-            app:layout_constraintLeft_toLeftOf="@+id/text_pickup_location"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/text_pickup_location"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_pickup_location" />
 
         <com.zoomcar.uikit.imageview.ZImageView
@@ -60,7 +60,7 @@
             android:layout_height="24dp"
             android:layout_marginStart="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider"
             app:srcCompat="@drawable/ic_drop_off_rectangle" />
 
@@ -89,8 +89,8 @@
             android:background="@null"
             android:textColorHint="@color/phantom_grey_04"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toRightOf="@+id/image_dropoff"
-            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_dropoff"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/divider"
             tools:text="Bengaluru · Diamond District, Domlur Bengaluru · Diamond District, Domlu" />
     </androidx.constraintlayout.widget.ConstraintLayout>
